@@ -67,25 +67,25 @@ class Maze(tk.Tk, object):
         self.btn_policy_evaluation = tk.Button(self.canvas,
                                                text="policy evaluation",
                                                command=policy_evaluation)
-        self.btn_policy_evaluation.place(relx=0.01, rely=0.01, relwidth=0.20)
+        self.btn_policy_evaluation.place(relx=0.01, rely=0.01, relwidth=0.24)
 
         self.btn_policy_update = tk.Button(self.canvas,
                                            text="policy update",
                                            command=policy_update)
-        self.btn_policy_update.place(relx=0.22, rely=0.01, relwidth=0.20)
+        self.btn_policy_update.place(relx=0.25, rely=0.01, relwidth=0.24)
 
         self.btn_toggle_value_iteration = tk.Button(self.canvas,
-                                                    text="toggle value iteration",
+                                                    text="value iteration",
                                                     command=toggle_value_iteration)
-        self.btn_toggle_value_iteration.place(relx=0.43, rely=0.01, relwidth=0.30)
-        self.btn_reset = tk.Button(self.canvas,
-                                   text="reset",
-                                   command=reset)
-        self.btn_reset.place(relx=0.74, rely=0.01, relwidth=0.14)
+        self.btn_toggle_value_iteration.place(relx=0.50, rely=0.01, relwidth=0.24)
+        # self.btn_reset = tk.Button(self.canvas,
+        #                            text="reset",
+        #                            command=reset)
+        # self.btn_reset.place(relx=0.74, rely=0.01, relwidth=0.14)
         self.btn_run = tk.Button(self.canvas,
-                                 text="run",
+                                 text="Q-Learning",
                                  command=run)
-        self.btn_run.place(relx=0.89, rely=0.01, relwidth=0.10)
+        self.btn_run.place(relx=0.75, rely=0.01, relwidth=0.24)
 
         # create grids
         for c in range(0, MAZE_W * UNIT, UNIT):
