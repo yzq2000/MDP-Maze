@@ -21,10 +21,12 @@
 - 点击value iteration按钮，开始迭代价值函数直至收敛，并由最优价值函数确定最优策略方案
 - 蓝色数字为价值函数，箭头表示策略方案
 
-## 算法介绍
+## 相关资料
 
-### Q-Learning
+Q-Learning
+- 视频学习 https://mofanpy.com/tutorials/machine-learning/reinforcement-learning/intro-q-learning/
+- 用于参考的迷宫环境源码 https://github.com/MorvanZhou/Reinforcement-learning-with-tensorflow/tree/master/contents/2_Q_Learning_maze
 
-### policy iteration
-
-### value iteration
+MDP
+- 视频学习 https://www.bilibili.com/video/BV1g7411m7Ms/?spm_id_from=333.788.recommend_more_video.-1
+- 相关课件见附件 MDP.pdf
